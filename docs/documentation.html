@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExSMuV Installation Guide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .instructions {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-top: 20px;
+    }
+
+    .instructions h2 {
+      margin-bottom: 15px;
+      color: #0d47a1;
+    }
+
+    .instructions ol {
+      padding-left: 20px;
+    }
+
+    .instructions li {
+      margin-bottom: 15px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 8px;
+      display: inline-block;
+    }
+
+    footer {
+      background: #e3e3e3;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <img src="images/ExSMuV.png" alt="Logo" class="logo" />
+      <h1>ExSMuV Setup Documentation</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="instructions">
+      <h2>Getting Started</h2>
+      <ol>
+        <li>Make sure you have <strong>x64 bit Windows Operating System</strong>.</li>
+        <li>Create a folder named <code>ExSMuV</code> anywhere on your PC.</li>
+        <li>Create three subfolders: <code>chromedriver</code>, <code>chrome</code>, and <code>server</code> inside <code>ExSMuV</code>.</li>
+        <li>Download <strong>Chromedriver</strong> and extract it into the <code>chromedriver</code> folder.</li>
+        <li>Download <strong>Chrome</strong> and extract it into the <code>chrome</code> folder.</li>
+        <li><strong>Note:</strong> Close any running Chrome browser (from system tray) to avoid conflicts.</li>
+        <li>Download a <strong>Server</strong> (e.g., WAMP, XAMPP, UniServer) and extract it into the <code>server</code> folder.</li>
+        <li><strong>Note:</strong> Make sure the <code>curl</code> library is enabled on the server.</li>
+        <li>Open the <code>chromedriver</code> folder, type <code>cmd</code> in the address bar, and run:
+          <pre>chromedriver.exe --port=49400</pre>
+        </li>
+        <li>Open the <code>chrome</code> folder and run <code>Chrome.exe</code>.</li>
+        <li>Download the GitHub code "<strong>ExSMuV</strong>" and place it inside the <code>htdocs</code> or <code>www</code> directory of the server.</li>
+        <li>Start the preferred server (e.g., UniServer).</li>
+        <li>Open <strong>localhost</strong> in the Chrome browser you launched earlier.</li>
+        <li>Try out the “<strong>ExSMuV</strong>” Software.</li>
+        <li>Sample searches for <em>“Chemistry”</em> and <em>“Harry Potter”</em> are cached for demo.</li>
+        <li>When done, close the browser, command prompt, and server.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ExSMuV Software. All rights reserved.</p>
+  </footer>
+</body>
+</html>

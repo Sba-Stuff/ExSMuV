@@ -20,7 +20,7 @@
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 Create the following folder and subfolders anywhere on your PC:
 

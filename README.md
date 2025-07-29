@@ -1,7 +1,7 @@
 # ExSMuV-Exploration-Software-for-Summarized-Multimedia-Vertical-Search-Results
 
 # ExSMuV Setup Guide
-![ExSMuV Logo](https://yourdomain.com/path/to/logo.png)
+![ExSMuV Logo]([https://yourdomain.com/path/to/logo.png](https://github.com/Sba-Stuff/ExSMuV/blob/main/docs/images/ExSMuV.png))
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/ExSMuV)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
